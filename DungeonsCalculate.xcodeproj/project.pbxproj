@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C119D7AD2315A714001BC893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C119D7AC2315A714001BC893 /* AppDelegate.m */; };
+		C119D7B02315A714001BC893 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C119D7AF2315A714001BC893 /* ViewController.m */; };
+		C119D7B32315A714001BC893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C119D7B12315A714001BC893 /* Main.storyboard */; };
+		C119D7B52315A716001BC893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C119D7B42315A716001BC893 /* Assets.xcassets */; };
+		C119D7B82315A716001BC893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C119D7B62315A716001BC893 /* LaunchScreen.storyboard */; };
+		C119D7BB2315A716001BC893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C119D7BA2315A716001BC893 /* main.m */; };
+		C119D7C22315A72D001BC893 /* resource.txt in Resources */ = {isa = PBXBuildFile; fileRef = C119D7C12315A72D001BC893 /* resource.txt */; };
+		C119D7C52315A8A4001BC893 /* HeroData.m in Sources */ = {isa = PBXBuildFile; fileRef = C119D7C42315A8A4001BC893 /* HeroData.m */; };
+		C119D7C72315AE0C001BC893 /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C119D7C62315AE0C001BC893 /* HeroTableViewCell.xib */; };
+		C119D7CA2315AE2E001BC893 /* HeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C119D7C82315AE2E001BC893 /* HeroTableViewCell.m */; };
+		C15EDFB42316BBD100113E09 /* HobbyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EDFB32316BBD100113E09 /* HobbyDetailViewController.m */; };
+		C15EDFB62316BC5000113E09 /* HobbyDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15EDFB52316BC5000113E09 /* HobbyDetailTableViewCell.xib */; };
+		C15EDFBA2316BDC900113E09 /* HobbyDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EDFB92316BDC900113E09 /* HobbyDetailTableViewCell.m */; };
+		C15EDFBD2316BE6400113E09 /* ResultData.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EDFBC2316BE6400113E09 /* ResultData.m */; };
+		C15EDFC02316CDFF00113E09 /* ResultSortData.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EDFBF2316CDFF00113E09 /* ResultSortData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C119D7A82315A714001BC893 /* DungeonsCalculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonsCalculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C119D7AB2315A714001BC893 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C119D7AC2315A714001BC893 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C119D7AE2315A714001BC893 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C119D7AF2315A714001BC893 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C119D7B22315A714001BC893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C119D7B42315A716001BC893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C119D7B72315A716001BC893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C119D7B92315A716001BC893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C119D7BA2315A716001BC893 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C119D7C12315A72D001BC893 /* resource.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resource.txt; sourceTree = "<group>"; };
+		C119D7C32315A8A4001BC893 /* HeroData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroData.h; sourceTree = "<group>"; };
+		C119D7C42315A8A4001BC893 /* HeroData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroData.m; sourceTree = "<group>"; };
+		C119D7C62315AE0C001BC893 /* HeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroTableViewCell.xib; sourceTree = "<group>"; };
+		C119D7C82315AE2E001BC893 /* HeroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewCell.m; sourceTree = "<group>"; };
+		C119D7C92315AE2E001BC893 /* HeroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewCell.h; sourceTree = "<group>"; };
+		C119D7CC2315AF5D001BC893 /* HeroTableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroTableViewCellDelegate.h; sourceTree = "<group>"; };
+		C15EDFB22316BBD100113E09 /* HobbyDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HobbyDetailViewController.h; sourceTree = "<group>"; };
+		C15EDFB32316BBD100113E09 /* HobbyDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HobbyDetailViewController.m; sourceTree = "<group>"; };
+		C15EDFB52316BC5000113E09 /* HobbyDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HobbyDetailTableViewCell.xib; sourceTree = "<group>"; };
+		C15EDFB82316BDC900113E09 /* HobbyDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HobbyDetailTableViewCell.h; sourceTree = "<group>"; };
+		C15EDFB92316BDC900113E09 /* HobbyDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HobbyDetailTableViewCell.m; sourceTree = "<group>"; };
+		C15EDFBB2316BE6400113E09 /* ResultData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultData.h; sourceTree = "<group>"; };
+		C15EDFBC2316BE6400113E09 /* ResultData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultData.m; sourceTree = "<group>"; };
+		C15EDFBE2316CDFF00113E09 /* ResultSortData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultSortData.h; sourceTree = "<group>"; };
+		C15EDFBF2316CDFF00113E09 /* ResultSortData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultSortData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C119D7A52315A714001BC893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C119D79F2315A714001BC893 = {
+			isa = PBXGroup;
+			children = (
+				C119D7AA2315A714001BC893 /* DungeonsCalculate */,
+				C119D7A92315A714001BC893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C119D7A92315A714001BC893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C119D7A82315A714001BC893 /* DungeonsCalculate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C119D7AA2315A714001BC893 /* DungeonsCalculate */ = {
+			isa = PBXGroup;
+			children = (
+				C15EDFB72316BDAE00113E09 /* GUI */,
+				C15EDFB12316BB1C00113E09 /* ViewController */,
+				C119D7CB2315AF5D001BC893 /* Delegate */,
+				C119D7C12315A72D001BC893 /* resource.txt */,
+				C119D7AB2315A714001BC893 /* AppDelegate.h */,
+				C119D7AC2315A714001BC893 /* AppDelegate.m */,
+				C119D7AE2315A714001BC893 /* ViewController.h */,
+				C119D7AF2315A714001BC893 /* ViewController.m */,
+				C119D7C92315AE2E001BC893 /* HeroTableViewCell.h */,
+				C119D7C82315AE2E001BC893 /* HeroTableViewCell.m */,
+				C119D7B12315A714001BC893 /* Main.storyboard */,
+				C119D7B42315A716001BC893 /* Assets.xcassets */,
+				C119D7B62315A716001BC893 /* LaunchScreen.storyboard */,
+				C119D7B92315A716001BC893 /* Info.plist */,
+				C119D7BA2315A716001BC893 /* main.m */,
+				C119D7C32315A8A4001BC893 /* HeroData.h */,
+				C119D7C42315A8A4001BC893 /* HeroData.m */,
+				C119D7C62315AE0C001BC893 /* HeroTableViewCell.xib */,
+				C15EDFB52316BC5000113E09 /* HobbyDetailTableViewCell.xib */,
+				C15EDFBB2316BE6400113E09 /* ResultData.h */,
+				C15EDFBC2316BE6400113E09 /* ResultData.m */,
+				C15EDFBE2316CDFF00113E09 /* ResultSortData.h */,
+				C15EDFBF2316CDFF00113E09 /* ResultSortData.m */,
+			);
+			path = DungeonsCalculate;
+			sourceTree = "<group>";
+		};
+		C119D7CB2315AF5D001BC893 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C119D7CC2315AF5D001BC893 /* HeroTableViewCellDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C15EDFB12316BB1C00113E09 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C15EDFB22316BBD100113E09 /* HobbyDetailViewController.h */,
+				C15EDFB32316BBD100113E09 /* HobbyDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C15EDFB72316BDAE00113E09 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				C15EDFB82316BDC900113E09 /* HobbyDetailTableViewCell.h */,
+				C15EDFB92316BDC900113E09 /* HobbyDetailTableViewCell.m */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C119D7A72315A714001BC893 /* DungeonsCalculate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C119D7BE2315A716001BC893 /* Build configuration list for PBXNativeTarget "DungeonsCalculate" */;
+			buildPhases = (
+				C119D7A42315A714001BC893 /* Sources */,
+				C119D7A52315A714001BC893 /* Frameworks */,
+				C119D7A62315A714001BC893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DungeonsCalculate;
+			productName = DungeonsCalculate;
+			productReference = C119D7A82315A714001BC893 /* DungeonsCalculate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C119D7A02315A714001BC893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lionelzhang;
+				TargetAttributes = {
+					C119D7A72315A714001BC893 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = C119D7A32315A714001BC893 /* Build configuration list for PBXProject "DungeonsCalculate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C119D79F2315A714001BC893;
+			productRefGroup = C119D7A92315A714001BC893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C119D7A72315A714001BC893 /* DungeonsCalculate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C119D7A62315A714001BC893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C119D7B82315A716001BC893 /* LaunchScreen.storyboard in Resources */,
+				C119D7B52315A716001BC893 /* Assets.xcassets in Resources */,
+				C119D7C72315AE0C001BC893 /* HeroTableViewCell.xib in Resources */,
+				C15EDFB62316BC5000113E09 /* HobbyDetailTableViewCell.xib in Resources */,
+				C119D7C22315A72D001BC893 /* resource.txt in Resources */,
+				C119D7B32315A714001BC893 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C119D7A42315A714001BC893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15EDFBD2316BE6400113E09 /* ResultData.m in Sources */,
+				C119D7B02315A714001BC893 /* ViewController.m in Sources */,
+				C119D7C52315A8A4001BC893 /* HeroData.m in Sources */,
+				C119D7BB2315A716001BC893 /* main.m in Sources */,
+				C119D7CA2315AE2E001BC893 /* HeroTableViewCell.m in Sources */,
+				C15EDFC02316CDFF00113E09 /* ResultSortData.m in Sources */,
+				C15EDFBA2316BDC900113E09 /* HobbyDetailTableViewCell.m in Sources */,
+				C15EDFB42316BBD100113E09 /* HobbyDetailViewController.m in Sources */,
+				C119D7AD2315A714001BC893 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C119D7B12315A714001BC893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C119D7B22315A714001BC893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C119D7B62315A716001BC893 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C119D7B72315A716001BC893 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C119D7BC2315A716001BC893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C119D7BD2315A716001BC893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C119D7BF2315A716001BC893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 82NWU9X875;
+				INFOPLIST_FILE = DungeonsCalculate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gesila.biketest4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.gesila.biketest4.debug;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C119D7C02315A716001BC893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 82NWU9X875;
+				INFOPLIST_FILE = DungeonsCalculate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gesila.biketest4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.gesila.biketest4.release;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C119D7A32315A714001BC893 /* Build configuration list for PBXProject "DungeonsCalculate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C119D7BC2315A716001BC893 /* Debug */,
+				C119D7BD2315A716001BC893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C119D7BE2315A716001BC893 /* Build configuration list for PBXNativeTarget "DungeonsCalculate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C119D7BF2315A716001BC893 /* Debug */,
+				C119D7C02315A716001BC893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C119D7A02315A714001BC893 /* Project object */;
+}

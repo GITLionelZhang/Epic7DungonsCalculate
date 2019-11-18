@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="250" id="WhN-nW-LeB" customClass="HobbyDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="449" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WhN-nW-LeB" id="afk-4s-0Tf">
+                <rect key="frame" x="0.0" y="0.0" width="449" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xMB-Gd-Z6f">
+                        <rect key="frame" x="0.0" y="0.0" width="449" height="249.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J9u-zW-6JY">
+                                <rect key="frame" x="0.0" y="0.0" width="449" height="62.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jsx-SK-DoE">
+                                        <rect key="frame" x="0.0" y="0.0" width="224.5" height="62.5"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="40K-Vf-YAW">
+                                        <rect key="frame" x="224.5" y="0.0" width="224.5" height="62.5"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="40K-Vf-YAW" firstAttribute="width" secondItem="Jsx-SK-DoE" secondAttribute="width" id="E72-l4-5v6"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GgQ-if-OV6">
+                                <rect key="frame" x="0.0" y="62.5" width="449" height="62.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g4G-Qy-9ti">
+                                        <rect key="frame" x="0.0" y="0.0" width="224.5" height="62.5"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tg6-qz-aLN">
+                                        <rect key="frame" x="224.5" y="0.0" width="224.5" height="62.5"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tg6-qz-aLN" firstAttribute="width" secondItem="g4G-Qy-9ti" secondAttribute="width" id="cg6-0Q-tEG"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMf-Yp-Rv9">
+                                <rect key="frame" x="0.0" y="125" width="449" height="62"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGC-ek-Ssl">
+                                <rect key="frame" x="0.0" y="187" width="449" height="62.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="gMf-Yp-Rv9" firstAttribute="height" secondItem="GgQ-if-OV6" secondAttribute="height" id="gS5-k4-1pL"/>
+                            <constraint firstItem="GgQ-if-OV6" firstAttribute="height" secondItem="J9u-zW-6JY" secondAttribute="height" id="it2-SS-1Mn"/>
+                            <constraint firstItem="IGC-ek-Ssl" firstAttribute="height" secondItem="gMf-Yp-Rv9" secondAttribute="height" id="l7h-ss-G8W"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xMB-Gd-Z6f" firstAttribute="top" secondItem="afk-4s-0Tf" secondAttribute="top" id="BDv-m3-Zcu"/>
+                    <constraint firstItem="xMB-Gd-Z6f" firstAttribute="centerX" secondItem="afk-4s-0Tf" secondAttribute="centerX" id="XPv-mb-TOD"/>
+                    <constraint firstItem="xMB-Gd-Z6f" firstAttribute="height" secondItem="afk-4s-0Tf" secondAttribute="height" id="adk-9j-Hbv"/>
+                    <constraint firstItem="xMB-Gd-Z6f" firstAttribute="width" secondItem="afk-4s-0Tf" secondAttribute="width" id="fnR-QB-D60"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgHero1" destination="Jsx-SK-DoE" id="6un-Mp-AdD"/>
+                <outlet property="imgHero2" destination="40K-Vf-YAW" id="F7w-Ze-8SJ"/>
+                <outlet property="imgHero3" destination="g4G-Qy-9ti" id="tGb-CN-754"/>
+                <outlet property="imgHero4" destination="tg6-qz-aLN" id="4aD-H4-mNU"/>
+                <outlet property="lblRightHero1" destination="gMf-Yp-Rv9" id="0y0-2r-UyV"/>
+                <outlet property="lblRightHero2" destination="IGC-ek-Ssl" id="VDh-Wv-Aaj"/>
+            </connections>
+            <point key="canvasLocation" x="157.24637681159422" y="170.75892857142856"/>
+        </tableViewCell>
+    </objects>
+</document>
